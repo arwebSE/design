@@ -10,7 +10,59 @@
     display: none;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #333;
+    color: #509fda;
+    text-decoration-color: #509fda;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 8px auto;
+    width: 980px;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+}
+
+body article {
+    margin: 3em;
+}
+
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+}
+
+.rm-navbar ul li {
+    display: inline;
+}
+
+.rm-navbar li a {
+    padding: 0.5em 1em;
+    border: transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: #555;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin: 2px;
+}
+
+.rm-navbar a:hover {
+    color: #eee;
+    background: #333;
+    text-shadow: #ccc 1px 1px 0;
+}
+
+.rm-navbar .selected {
+    background-color: #509fda;
 }

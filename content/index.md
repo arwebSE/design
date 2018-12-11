@@ -4,22 +4,33 @@ title: "Min fina titel"
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/me.jpg?w=300" class="right" caption="Bild på mig"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Hej,
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Mitt namn är August. Jag är 23 år gammal.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Jag är uppvuxen i Södertälje men har bott i Östergötlands Linköping och nu den senaste tiden i Norrköping.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Mina huvudintressen är teknik, samt musik.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Inom teknik gillar jag främst webbprogrammering och design, gillar att gräva mig djupt i nya tekniker och språk som fångar mitt inresse.
 
-Vi syns och hörs i forum och chatt!
+Jag gillar att hitta stora lösningar på små problem som jag hittar själv, eller ibland som jag får i uppdrag av andra.
 
-/Mikael
+Inom musik fungerar jag liknande på det sättet att jag gräver mig djupt inom någon artist eller musikstil och intresserar mig oftast mer än somliga inom diverse genrer o likn.
+
+Jag spelar själv en rad instrument, däribland kontrabas, trummor, gitarr. Komponerar även egen musik.
+
+Hare bra!
+
+/A
+
+<style>
+span.site-logo img {
+    border-radius: 100%;
+}
+</style>

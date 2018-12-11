@@ -16,9 +16,7 @@ views:
                 type: single
                 route: block/om-redovisa
 ---
-Om
+Test
 =========================
 
-Denna webbplats är en del av kursen [Design](https://github.com/dbwebb-se/design) som utges av Blekinge Tekniska Högskola.
-
-[FIGURE src=image/design.png?w=300 caption="En fin demobild."]
+Denna sida är test för markdown.
