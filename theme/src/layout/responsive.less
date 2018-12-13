@@ -1,0 +1,33 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+
+    .rm-navbar-max {
+        display: block;
+    }
+
+    body,
+    html {
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .site-logo {
+        display: initial;
+    }
+
+    .rm-navbar-max,
+    .site-logo-text-icon {
+        display: none !important;
+    }
+}

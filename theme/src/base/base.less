@@ -1,0 +1,52 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #333;
+@colorBody: #509fda;
+@fontFamilyBody: serif;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    text-decoration-color: @colorBody;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: @bgColorHtml;
+    color: @colorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+h4 {
+    font-size: 1.25em;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}

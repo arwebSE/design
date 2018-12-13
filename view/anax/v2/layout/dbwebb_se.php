@@ -74,8 +74,12 @@ $route = "route-" . str_replace("/", "-", $di->get("request")->getRoute());
     <?php endif; ?>
 
     <?php if (isset($style)) : ?>
-    <style><?= $style ?></style>
+    <style>
+        <?php echo $style; ?>
+    </style>
     <?php endif; ?>
+
+    <!--<link rel="stylesheet" type="text/less" href="http://design/me/redovisa/theme/src/kmom02.less">-->
 
 </head>
 

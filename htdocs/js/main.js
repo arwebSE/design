@@ -5,6 +5,4 @@
     "use strict";
     console.info("main.js ready and loaded.");
 
-    document.getElementsByClassName('region-header').appendChild(document.getElementsByClassName('outer-wrap-flash'));
-
 })();

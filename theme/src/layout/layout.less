@@ -1,0 +1,253 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+@wrapColorHtml: #eee;
+@lightGrey: #424242;
+@darkShadow: rgba(0, 0, 0, 0.75);
+@arBlue: #509fda;
+@arDark: #333;
+@devilGrey: #666;
+@lighterGrey: #aaa;
+
+/**
+ * General layout
+ */
+
+.row,
+.columns,
+.author-byline,
+.footer-column-wrapper {
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.inner-wrap {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: @wrapColorHtml;
+
+    &.inner-wrap-header {
+        border-radius: 10px 10px 0 0;
+        box-shadow: 0 0 10px 0 @darkShadow;
+    }
+
+    &.inner-wrap-main {
+        border-radius: 0 0 10px 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px 0 @darkShadow;
+    }
+
+    &.inner-wrap-footer {
+        background-color: transparent;
+    }
+}
+
+.rm-navbar li a {
+    padding: 0.5em 1em;
+    border: transparent;
+    border-radius: 10px;
+    text-decoration: none !important;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: #555;
+    box-shadow: 0 0 10px 0 @darkShadow;
+    margin: 2px;
+}
+
+.rm-navbar a:hover {
+    color: @wrapColorHtml;
+    background: @arDark;
+    text-shadow: #ccc 1px 1px 0;
+}
+
+.rm-navbar .selected {
+    background-color: @arBlue;
+}
+
+.rm-navbar .rm-desktop {
+    margin: 0 auto;
+
+    li {
+        display: inline-block;
+        margin: 1px;
+    }
+}
+
+.site-logo-text {
+    text-align: center;
+
+    a {
+        font-size: 2em;
+        margin: 0 auto;
+        font-family: Verdana, Geneva, sans-serif;
+    }
+}
+
+.outer-wrap-footer {
+    background-color: @lightGrey;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.column {
+    height: 100%;
+}
+
+.row {
+    display: block;
+    width: 101.04166667%;
+    border-radius: 50px !important;
+    margin-left: -0.52083333%;
+    margin-right: -0.52083333%;
+}
+
+.region-flash {
+    width: 500px;
+    margin: 10px auto;
+
+    img {
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+.region-footer {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    background-color: @lightGrey;
+}
+
+.footer-column {
+    display: inline;
+    float: left;
+    width: 32.29166667%;
+    margin: 5px;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    height: 100%;
+
+    .footer-column-1,
+    .footer-column-2 {
+        border-right: 1px solid @devilGrey;
+    }
+
+    .footer-column-x {
+        padding-bottom: 24px;
+        padding-right: 1em;
+        height: 100%;
+    }
+}
+
+.footer-column-wrapper {
+    color: #ddd;
+    border-bottom: 1px solid @devilGrey;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
+}
+
+.site-footer {
+    color: @lighterGrey;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.author-byline {
+    border: 1px solid #ccc;
+    margin-bottom: 46px;
+    padding: 1em;
+    font: 100.01%/1.5 Verdana, Geneva, sans-serif;
+    color: @arDark;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.figure {
+    display: table;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+
+    &.left {
+        float: left;
+        margin-right: 8px;
+    }
+
+    figcaption {
+        padding-top: 12px;
+        display: table-caption;
+        caption-side: bottom;
+
+        p {
+            margin-top: 0;
+            font-style: italic;
+        }
+    }
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+.outer-wrap-header {
+    height: 48px;
+    margin-bottom: 12px;
+}
+
+.region-header-col-1 {
+    display: inline;
+    float: left;
+    width: 19.79166667%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+}
+
+.region-header-col-2 {
+    display: inline;
+    float: left;
+    width: 57.29166667%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+}
+
+.region-header-col-3 {
+    display: inline;
+    float: left;
+    width: 19.79166667%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+}
+
+.site-logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.site-logo-text {
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 0.2em;
+
+    a {
+        color: #333;
+        text-decoration: none;
+        transition: all 0.2s linear;
+    }
+}
