@@ -1852,6 +1852,9 @@ template {
 .fa-fire:before {
   content: "\f06d";
 }
+.fa-fire-alt:before {
+  content: "\f7e4";
+}
 .fa-fire-extinguisher:before {
   content: "\f134";
 }
