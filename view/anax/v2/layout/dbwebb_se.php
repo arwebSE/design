@@ -69,17 +69,15 @@ $route = "route-" . str_replace("/", "-", $di->get("request")->getRoute());
 
     <?php if (isset($stylesheets)) : ?>
         <?php foreach ($stylesheets as $stylesheet) : ?>
-            <!-- DONT FORGET TO REMOVE AT PUBLISH -->
-            <!-- MODIFIED FILES: content\block\footer.md, view\anax\v2\layout\dbwebb_se.php -->
-            <!-- <link rel="stylesheet" type="text/css" href="<?//= asset($stylesheet) ?>"> -->
-            <!-- <link rel="stylesheet" type="text/less" href="http://design/me/redovisa/theme/src/kmom03.less"> -->
-            <link rel="stylesheet" type="text/less" href="http://design/me/redovisa/theme/src/kmom03.less">
+            <link rel="stylesheet" type="text/css" href="<?= asset($stylesheet) ?>">
         <?php endforeach; ?>
     <?php endif; ?>
 
-    <?php if (isset($style)) : ?>
-    <style><?= $style ?></style>
-    <?php endif; ?>
+    <?php
+        if (isset($style)) {
+            echo "<style>" . $style . "</style>";
+        }
+    ?>
 
 </head>
 

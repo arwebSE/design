@@ -6,23 +6,17 @@ Min me-sida i kursen design
 
 [FIGURE src="image/me.jpg?w=300" class="right" caption="Bild på mig"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv.
-
-
-Hej,
+Hej!
 
 Mitt namn är August. Jag är 23 år gammal.
 
 Jag är uppvuxen i Södertälje men har bott i Östergötlands Linköping och nu den senaste tiden i Norrköping.
 
 Mina huvudintressen är teknik, samt musik.
-
 Inom teknik gillar jag främst webbprogrammering och design, gillar att gräva mig djupt i nya tekniker och språk som fångar mitt inresse.
-
 Jag gillar att hitta stora lösningar på små problem som jag hittar själv, eller ibland som jag får i uppdrag av andra.
 
 Inom musik fungerar jag liknande på det sättet att jag gräver mig djupt inom någon artist eller musikstil och intresserar mig oftast mer än somliga inom diverse genrer o likn.
-
 Jag spelar själv en rad instrument, däribland kontrabas, trummor, gitarr. Komponerar även egen musik.
 
 Hare bra!

@@ -1,0 +1,25 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #333;
+@colorBody: #509fda;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: @bgColorHtml;
+    text-decoration-color: @colorBody;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: @bgColorHtml;
+    color: @colorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
