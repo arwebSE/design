@@ -5,7 +5,8 @@
     padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 1.5em;
 }
 
@@ -13,7 +14,8 @@ ol, ul {
     display: none !important;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -28,25 +30,45 @@ body {
     flex: 1 0 auto;
 }
 
-.header, .footer {
+.header,
+.footer {
     flex: 0 0 auto;
+}
+
+.main,
+.header {
+    margin: 0 25%; /* centrera content */
+}
+
+@media (max-width: 767px) {
+    .main,
+    .header {
+        margin: 0 5%;
+    }
 }
 
 /* Header */
 
-.header, .site-header {
+.header,
+.site-header {
     display: flex;
     justify-content: space-between;
 }
 
 /* Title */
 
-.title, .logo {
+.title,
+.logo {
     padding: 3em 3em 3em 0;
 }
 
+.logo {
+    max-width: 35%;
+}
+
 @media (max-width: 767px) {
-    .title, .logo {
+    .title,
+    .logo {
         padding: 1em 1em 1em 0;
     }
     .title {
@@ -71,15 +93,31 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: #222;
+    color: white;
+}
+
+.footer > * {
+    /* all footer children */
+    margin: auto 5%;
 }
 
 .footer a {
-    color: #222;
+    color: white;
 }
 
 .footer .social {
     font-size: 2rem;
 }
+
+/* white bottom line fix */
+html {
+    background-color: #222;
+}
+body {
+    background-color: white;
+}
+/* white bottom line fix end*/
 
 /* Typografy */
 
@@ -89,13 +127,22 @@ body {
     color: #444;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
 }
