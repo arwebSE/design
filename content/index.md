@@ -1,6 +1,7 @@
 ---
 Title: Home
 Description: Min sida.
+Icon: home
 ---
 
 # Hem
