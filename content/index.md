@@ -4,9 +4,13 @@ Description: Min sida.
 Icon: home
 ---
 
-# Hem
 
-Hej!
+<div class="profile">
+    <img src="image/me.jpg" />
+</div>
+
+# Hej!
+
 
 Mitt namn är August. Jag är 26 år gammal.
 

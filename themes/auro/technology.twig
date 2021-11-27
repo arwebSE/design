@@ -1,14 +1,27 @@
 {% include 'incl/header.twig' %}
 
 <body>
-    <aside>
-        {{ sidebar }}
-    </aside>
-    <main class="main" role="main">
-        {{ content }}
-    </main>
-    
-    {% include 'incl/footer.twig' %}
-</body>
+	{% include 'incl/nav.twig' %}
 
-</html>
+	<div class="techwrapper">
+		<aside class="sidebar">
+			<ul>
+				{% for page in pages("technology") if page.title and not page.hidden %}
+					<li {% if page.id==current_page.id %} class="active" {% endif %}>
+						{% if page.meta.Icon is defined %}
+							<i class="fas fa-{{ page.meta.Icon }}" aria-hidden="true"></i>
+						{% endif %}
+						<a href="{{ page.url }}">
+							{{ page.title }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</aside>
+		<main class="main technology" role="main">
+			{{ content }}
+		</main>
+	</div>
+
+	{% include 'incl/footer.twig' %}
+</body></html></body>

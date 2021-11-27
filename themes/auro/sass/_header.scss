@@ -8,3 +8,44 @@
         margin: 0 5%;
     }
 }
+
+.hidden {
+    display: none;
+}
+
+.nav {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $title-font;
+    font-size: large;
+
+    .active > a {
+        text-decoration: underline solid #222;
+        text-decoration-thickness: 3px;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline dashed;
+            text-decoration-thickness: 3px;
+        }
+    }
+}
+
+#nav:focus {
+    outline: none !important;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    img {
+        border-radius: 50%;
+        margin: 5px;
+    }
+}
