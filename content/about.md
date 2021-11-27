@@ -1,7 +1,7 @@
 ---
 Title: About
 Description: Min sida.
-Icon: info
+Icon: circle-question
 ---
 
 # Om

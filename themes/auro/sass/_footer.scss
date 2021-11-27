@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    border-top: 1px solid #222;
+    background-color: #222;
+    color: #fff;
+    font-weight: bolder;
+    font-family: sans-serif;
+    box-shadow: inset 0 15px 30px 0 rgba(0, 0, 0, 0.849);
+
+    a {
+        color: rgba($color: #c238f8, $alpha: 0.7);
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+
+    > * {
+        /* all footer children */
+        margin: auto 5%;
+    }
+}
+
+/* html { <white bottom line fix>
+    background-color: #222;
+}
+body {
+    background-color: white;
+} */

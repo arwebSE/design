@@ -1,0 +1,48 @@
+@use "sass:math";
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    margin: 0 25%; /* centrera content */
+}
+
+@media (max-width: 767px) {
+    .main{
+        margin: 0 5%;
+    }
+}
+
+.auto {
+    margin: auto;
+    text-align: center;
+}
+
+.alert {
+    background-color: $base-color;
+    border: 1px solid $border-dark;
+    height: math.div($alert-box-size, 2);
+    width: $alert-box-size;
+}
+
+.title {
+    font-family: $title-font;
+    font-size: xx-large;
+
+    a > * {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.logo img {
+    max-width: 25%;
+}
